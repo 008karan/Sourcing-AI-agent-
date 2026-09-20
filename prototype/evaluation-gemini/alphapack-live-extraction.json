@@ -1,0 +1,679 @@
+{
+  "id": "alphapack",
+  "name": "AlphaPack Solutions",
+  "file": "vendor_d_alphapack_rate_card_photo.jpg",
+  "format": "jpg",
+  "quality": "fail",
+  "lead": 11,
+  "response_status": "processed",
+  "facts": [
+    {
+      "line_no": 1,
+      "sku": "BX-5P-450-300-250",
+      "quote_status": "quoted",
+      "raw_price": 18.69,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "1 | BX-5P-450-300-250 | 5-ply RSC box 450x300x250 mm | piece | 18.69 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "1 | BX-5P-450-300-250 | 5-ply RSC box 450x300x250 mm | piece | 18.69 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "92671986-843a-4e5b-9372-02829ee13ef5",
+      "fact_id": "928d3db3-17ca-4877-a532-f2d088d41055"
+    },
+    {
+      "line_no": 2,
+      "sku": "BX-5P-500-350-300",
+      "quote_status": "quoted",
+      "raw_price": 23.23,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "2 | BX-5P-500-350-300 | 5-ply RSC box 500x350x300 mm | piece | 23.23 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "2 | BX-5P-500-350-300 | 5-ply RSC box 500x350x300 mm | piece | 23.23 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "5bbd02c5-a586-43cf-b129-3087fd4bd69d",
+      "fact_id": "34ffe751-53e4-4980-8fda-b5e144538ad5"
+    },
+    {
+      "line_no": 3,
+      "sku": "BX-5P-600-400-350",
+      "quote_status": "quoted",
+      "raw_price": 29.91,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "3 | BX-5P-600-400-350 | 5-ply RSC box 600x400x350 mm | piece | 29.91 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "3 | BX-5P-600-400-350 | 5-ply RSC box 600x400x350 mm | piece | 29.91 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "c0b98497-94b1-4d78-b667-03fd9efa01cd",
+      "fact_id": "bbd4c894-21bf-4efa-a9f8-cc50b49f3eb4"
+    },
+    {
+      "line_no": 4,
+      "sku": "BX-5P-420-320-280",
+      "quote_status": "quoted",
+      "raw_price": 19.67,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "4 | BX-5P-420-320-280 | 5-ply die-cut box 420x320x280 mm | piece | 19.67 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "4 | BX-5P-420-320-280 | 5-ply die-cut box 420x320x280 mm | piece | 19.67 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "69150bec-ab3d-49fd-adf0-80bd6afe7db3",
+      "fact_id": "5eefb08b-3dab-4111-99aa-7588229b9003"
+    },
+    {
+      "line_no": 5,
+      "sku": "BX-5P-380-280-220",
+      "quote_status": "quoted",
+      "raw_price": 15.23,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "5 | BX-5P-380-280-220 | 5-ply RSC box 380x280x220 mm | piece | 15.23 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "5 | BX-5P-380-280-220 | 5-ply RSC box 380x280x220 mm | piece | 15.23 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "515b982f-2457-4eb3-9388-af23f05b1a80",
+      "fact_id": "d54bf162-1024-4e9d-8a02-38e6942869c5"
+    },
+    {
+      "line_no": 6,
+      "sku": "BX-5P-550-380-320",
+      "quote_status": "quoted",
+      "raw_price": 26.07,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "6 | BX-5P-550-380-320 | 5-ply RSC box 550x380x320 mm | piece | 26.07 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "6 | BX-5P-550-380-320 | 5-ply RSC box 550x380x320 mm | piece | 26.07 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "7cba156d-1987-438b-928f-17e651023276",
+      "fact_id": "5a6bdb0e-aac6-48db-a919-105084f2bafb"
+    },
+    {
+      "line_no": 7,
+      "sku": "BX-5P-480-330-260",
+      "quote_status": "quoted",
+      "raw_price": 21.51,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "7 | BX-5P-480-330-260 | 5-ply RSC box 480x330x260 mm | piece | 21.51 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "7 | BX-5P-480-330-260 | 5-ply RSC box 480x330x260 mm | piece | 21.51 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "60cc3258-4d0a-4ff9-8f3d-daa25d649e49",
+      "fact_id": "e192f870-59d4-455a-a8f6-01234f740496"
+    },
+    {
+      "line_no": 8,
+      "sku": "BX-5P-650-450-400",
+      "quote_status": "quoted",
+      "raw_price": 36.8,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "8 | BX-5P-650-450-400 | 5-ply heavy-duty box 650x450x400 mm | piece | 36.80 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "8 | BX-5P-650-450-400 | 5-ply heavy-duty box 650x450x400 mm | piece | 36.80 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "bd893d5d-ef28-4d10-81f9-dff4d4f564a0",
+      "fact_id": "3446e13d-b64b-4428-a875-db69d8eae07a"
+    },
+    {
+      "line_no": 9,
+      "sku": "BX-5P-440-310-240",
+      "quote_status": "quoted",
+      "raw_price": 18.91,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "9 | BX-5P-440-310-240 | 5-ply printed box 440x310x240 mm | piece | 18.91 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "9 | BX-5P-440-310-240 | 5-ply printed box 440x310x240 mm | piece | 18.91 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "c79fcd0b-6847-4c14-8656-37f93ce55e32",
+      "fact_id": "90cd00e8-d3f3-405d-af5e-87f0b14fa219"
+    },
+    {
+      "line_no": 10,
+      "sku": "BX-5P-520-360-290",
+      "quote_status": "quoted",
+      "raw_price": 24.09,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "10 | BX-5P-520-360-290 | 5-ply RSC box 520x360x290 mm | piece | 24.09 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "10 | BX-5P-520-360-290 | 5-ply RSC box 520x360x290 mm | piece | 24.09 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "ea7828c8-08ab-4781-a481-eaa9ae95d92d",
+      "fact_id": "caf97452-a5d0-45b8-a535-019bede859c5"
+    },
+    {
+      "line_no": 11,
+      "sku": "BX-3P-300-200-150",
+      "quote_status": "quoted",
+      "raw_price": 8.47,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "11 | BX-3P-300-200-150 | 3-ply RSC box 300x200x150 mm | piece | 8.47 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "11 | BX-3P-300-200-150 | 3-ply RSC box 300x200x150 mm | piece | 8.47 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "d98f2bb4-d35a-4ebf-8457-1b553d897d4e",
+      "fact_id": "30d722cf-5b5b-460c-aaf8-6e9e183d4dad"
+    },
+    {
+      "line_no": 12,
+      "sku": "BX-3P-350-250-180",
+      "quote_status": "quoted",
+      "raw_price": 9.65,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "12 | BX-3P-350-250-180 | 3-ply RSC box 350x250x180 mm | piece | 9.65 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "12 | BX-3P-350-250-180 | 3-ply RSC box 350x250x180 mm | piece | 9.65 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "6034e0b9-2a2e-4833-806a-73bbc3de07f3",
+      "fact_id": "39e72357-727b-423a-87e9-3218c5c2f29f"
+    },
+    {
+      "line_no": 13,
+      "sku": "BX-3P-400-300-200",
+      "quote_status": "quoted",
+      "raw_price": 11.64,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "13 | BX-3P-400-300-200 | 3-ply RSC box 400x300x200 mm | piece | 11.64 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "13 | BX-3P-400-300-200 | 3-ply RSC box 400x300x200 mm | piece | 11.64 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "da944652-56c6-4a32-9037-540197ffc2d5",
+      "fact_id": "e184199e-0232-49bc-89e7-f99caf4f18f0"
+    },
+    {
+      "line_no": 14,
+      "sku": "BX-3P-280-180-120",
+      "quote_status": "quoted",
+      "raw_price": 7.2,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "14 | BX-3P-280-180-120 | 3-ply mailer box 280x180x120 mm | piece | 7.20 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "14 | BX-3P-280-180-120 | 3-ply mailer box 280x180x120 mm | piece | 7.20 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "445f4703-5ebf-4abc-81ec-18ce265e5df3",
+      "fact_id": "42eb2b1b-9f85-458c-b1a4-93ef50f996a9"
+    },
+    {
+      "line_no": 15,
+      "sku": "BX-3P-450-320-220",
+      "quote_status": "quoted",
+      "raw_price": 13.46,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "15 | BX-3P-450-320-220 | 3-ply RSC box 450x320x220 mm | piece | 13.46 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "15 | BX-3P-450-320-220 | 3-ply RSC box 450x320x220 mm | piece | 13.46 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "bc001545-881d-4ae5-b908-1fc4a3129c4a",
+      "fact_id": "70188297-5f89-4699-b861-fdb95affec05"
+    },
+    {
+      "line_no": 16,
+      "sku": "BX-3P-320-220-160",
+      "quote_status": "quoted",
+      "raw_price": 8.78,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "16 | BX-3P-320-220-160 | 3-ply RSC box 320x220x160 mm | piece | 8.78 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "16 | BX-3P-320-220-160 | 3-ply RSC box 320x220x160 mm | piece | 8.78 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "43deed0a-9de1-4346-ac5f-6cdfbc9daf86",
+      "fact_id": "8fe66e5f-ceea-4672-8e2c-8ec671890510"
+    },
+    {
+      "line_no": 17,
+      "sku": "BX-3P-380-260-180",
+      "quote_status": "quoted",
+      "raw_price": 10.76,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "17 | BX-3P-380-260-180 | 3-ply printed box 380x260x180 mm | piece | 10.76 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "17 | BX-3P-380-260-180 | 3-ply printed box 380x260x180 mm | piece | 10.76 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "f33a5473-d390-426e-a900-9484951145bf",
+      "fact_id": "cacc211d-30b8-4807-84a5-5331f4226ecc"
+    },
+    {
+      "line_no": 18,
+      "sku": "BX-3P-500-350-250",
+      "quote_status": "unclear",
+      "raw_price": null,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.4,
+      "source_text": "18 | BX-3P-500-350-250 | 3-ply RSC box 500x350x250 mm | piece | 15.34 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "18 | BX-3P-500-350-250 | 3-ply RSC box 500x350x250 mm | piece | 15.34 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "8b045296-23e9-445f-9cda-57d5b7519e2d",
+      "fact_id": "47ea5693-7969-4fde-8797-6683110a4730"
+    },
+    {
+      "line_no": 19,
+      "sku": "DV-5P-450-280",
+      "quote_status": "quoted",
+      "raw_price": 140.5,
+      "raw_currency": "INR",
+      "raw_basis": "bundle",
+      "pack_size": 25,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "19 | DV-5P-450-280 | 5-ply corrugated divider 450x280 mm | bundle | 140.50 | 25",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "19 | DV-5P-450-280 | 5-ply corrugated divider 450x280 mm | bundle | 140.50 | 25",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "2c5ac69e-85ca-44e7-9d7c-4bee5900ed7d",
+      "fact_id": "f0b3152d-22de-4def-97ca-571e5567de1c"
+    },
+    {
+      "line_no": 20,
+      "sku": "DV-5P-520-320",
+      "quote_status": "quoted",
+      "raw_price": 173.0,
+      "raw_currency": "INR",
+      "raw_basis": "bundle",
+      "pack_size": 25,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "20 | DV-5P-520-320 | 5-ply corrugated divider 520x320 mm | bundle | 173.00 | 25",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "20 | DV-5P-520-320 | 5-ply corrugated divider 520x320 mm | bundle | 173.00 | 25",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "a9decd17-8e3d-4d97-9145-3e1a3188db80",
+      "fact_id": "201b0fce-ea8c-4be3-af03-8c195a1c83cf"
+    },
+    {
+      "line_no": 21,
+      "sku": "DV-3P-350-220",
+      "quote_status": "quoted",
+      "raw_price": 79.5,
+      "raw_currency": "INR",
+      "raw_basis": "bundle",
+      "pack_size": 25,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "21 | DV-3P-350-220 | 3-ply corrugated divider 350x220 mm | bundle | 79.50 | 25",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "21 | DV-3P-350-220 | 3-ply corrugated divider 350x220 mm | bundle | 79.50 | 25",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "3fbbe0f1-d958-44dd-b602-c18f8b76853e",
+      "fact_id": "e0e60d8d-29d6-489e-9a40-07be6a13891d"
+    },
+    {
+      "line_no": 22,
+      "sku": "DV-3P-420-260",
+      "quote_status": "quoted",
+      "raw_price": 97.25,
+      "raw_currency": "INR",
+      "raw_basis": "bundle",
+      "pack_size": 25,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "22 | DV-3P-420-260 | 3-ply corrugated divider 420x260 mm | bundle | 97.25 | 25",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "22 | DV-3P-420-260 | 3-ply corrugated divider 420x260 mm | bundle | 97.25 | 25",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "11720a3e-236e-4882-81ea-065c1723b3a6",
+      "fact_id": "89f72a98-70e0-4c6e-a316-40ed897b8c3e"
+    },
+    {
+      "line_no": 23,
+      "sku": "PD-3P-300-200",
+      "quote_status": "quoted",
+      "raw_price": 72.5,
+      "raw_currency": "INR",
+      "raw_basis": "bundle",
+      "pack_size": 25,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "23 | PD-3P-300-200 | 3-ply corrugated pad 300x200 mm | bundle | 72.50 | 25",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "23 | PD-3P-300-200 | 3-ply corrugated pad 300x200 mm | bundle | 72.50 | 25",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "17661d97-57b8-4aa7-b750-ebf2b3f2b810",
+      "fact_id": "f10f9f3c-eef6-47ab-8de3-b2bde2c7358c"
+    },
+    {
+      "line_no": 24,
+      "sku": "PD-5P-450-300",
+      "quote_status": "quoted",
+      "raw_price": 150.0,
+      "raw_currency": "INR",
+      "raw_basis": "bundle",
+      "pack_size": 25,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "24 | PD-5P-450-300 | 5-ply corrugated pad 450x300 mm | bundle | 150.00 | 25",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "24 | PD-5P-450-300 | 5-ply corrugated pad 450x300 mm | bundle | 150.00 | 25",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "9c439ee0-0378-4cb5-800f-e8b815880d7b",
+      "fact_id": "c1f951c7-c1da-491d-ad0d-577de8fdd3da"
+    },
+    {
+      "line_no": 25,
+      "sku": "SH-5P-1000-800",
+      "quote_status": "quoted",
+      "raw_price": 19.4,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "25 | SH-5P-1000-800 | 5-ply corrugated sheet 1000x800 mm | piece | 19.40 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "25 | SH-5P-1000-800 | 5-ply corrugated sheet 1000x800 mm | piece | 19.40 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "d8ab3038-7bb2-47e6-a537-a70df4531f07",
+      "fact_id": "e98f0f72-c595-41fd-8301-a0ce015b740f"
+    },
+    {
+      "line_no": 26,
+      "sku": "SH-5P-1200-900",
+      "quote_status": "quoted",
+      "raw_price": 25.58,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "26 | SH-5P-1200-900 | 5-ply corrugated sheet 1200x900 mm | piece | 25.58 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "26 | SH-5P-1200-900 | 5-ply corrugated sheet 1200x900 mm | piece | 25.58 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "0f439797-686b-4d61-92ab-a811edf1301b",
+      "fact_id": "37be5eef-049e-4011-80ae-d023383fa645"
+    },
+    {
+      "line_no": 27,
+      "sku": "SH-3P-900-600",
+      "quote_status": "quoted",
+      "raw_price": 10.53,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "27 | SH-3P-900-600 | 3-ply corrugated sheet 900x600 mm | piece | 10.53 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "27 | SH-3P-900-600 | 3-ply corrugated sheet 900x600 mm | piece | 10.53 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "e8aa2a4d-b375-464d-8e29-09eaaf067131",
+      "fact_id": "8e13e754-5365-487e-b11a-b82e8002c37c"
+    },
+    {
+      "line_no": 28,
+      "sku": "SH-3P-1100-700",
+      "quote_status": "quoted",
+      "raw_price": 13.78,
+      "raw_currency": "INR",
+      "raw_basis": "piece",
+      "pack_size": 1,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "28 | SH-3P-1100-700 | 3-ply corrugated sheet 1100x700 mm | piece | 13.78 | 1",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "28 | SH-3P-1100-700 | 3-ply corrugated sheet 1100x700 mm | piece | 13.78 | 1",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "01e50c88-3743-4ad4-871c-72c55ca9ba27",
+      "fact_id": "b4f35bfd-deb2-45da-8b4c-3f1fd4b2ef3a"
+    },
+    {
+      "line_no": 29,
+      "sku": "SL-5P-500-60",
+      "quote_status": "quoted",
+      "raw_price": 115.75,
+      "raw_currency": "INR",
+      "raw_basis": "bundle",
+      "pack_size": 25,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "29 | SL-5P-500-60 | 5-ply corrugated sleeve 500x60 mm | bundle | 115.75 | 25",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "29 | SL-5P-500-60 | 5-ply corrugated sleeve 500x60 mm | bundle | 115.75 | 25",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "671f3aeb-6e24-4fc2-ba97-f4ac1bb9253a",
+      "fact_id": "9278ca1c-1126-40d1-be19-0179d4829ede"
+    },
+    {
+      "line_no": 30,
+      "sku": "SL-3P-420-50",
+      "quote_status": "quoted",
+      "raw_price": 67.5,
+      "raw_currency": "INR",
+      "raw_basis": "bundle",
+      "pack_size": 25,
+      "lead_days": 11,
+      "confidence": 0.95,
+      "source_text": "30 | SL-3P-420-50 | 3-ply corrugated sleeve 420x50 mm | bundle | 67.50 | 25",
+      "evidence": {
+        "file": "vendor_d_alphapack_rate_card_photo.jpg",
+        "source_text": "30 | SL-3P-420-50 | 3-ply corrugated sleeve 420x50 mm | bundle | 67.50 | 25",
+        "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg"
+      },
+      "extraction_method": "gemini_vision",
+      "evidence_id": "b699b225-4424-4aa7-aa95-74b56e7994c5",
+      "fact_id": "a4e2727e-0a60-465b-83ea-08c2636d624d"
+    }
+  ],
+  "terms": {
+    "source_text": "Prices INR.\nFreight included.\nGST extra.\nLead: 11 days.\nMOQ: quoted pack size\nCOA: Not standard\nBF compliance: YES\nRecycled fibre: 72%",
+    "freight": "included"
+  },
+  "questionnaire": {
+    "Q1": {
+      "question_id": "Q1",
+      "answer": "YES",
+      "confidence": 0.95,
+      "source_text": "ISO 9001: YES"
+    },
+    "Q2": {
+      "question_id": "Q2",
+      "answer": "NO",
+      "confidence": 0.95,
+      "source_text": "FSC/PEFC: NO"
+    },
+    "Q3": {
+      "question_id": "Q3",
+      "answer": "YES",
+      "confidence": 0.95,
+      "source_text": "BF compliance: YES"
+    },
+    "Q4": {
+      "question_id": "Q4",
+      "answer": "72",
+      "confidence": 0.95,
+      "source_text": "Recycled fibre: 72%"
+    },
+    "Q6": {
+      "question_id": "Q6",
+      "answer": "11",
+      "confidence": 0.98,
+      "source_text": "Lead: 11 days."
+    },
+    "Q7": {
+      "question_id": "Q7",
+      "answer": "Not standard",
+      "confidence": 0.9,
+      "source_text": "COA: Not standard"
+    },
+    "Q8": {
+      "question_id": "Q8",
+      "answer": "quoted pack size",
+      "confidence": 0.95,
+      "source_text": "MOQ: quoted pack size"
+    }
+  },
+  "lines": [],
+  "documents": [
+    {
+      "path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg",
+      "filename": "vendor_d_alphapack_rate_card_photo.jpg",
+      "fixture": true
+    }
+  ],
+  "message": "",
+  "subject": "FY27 quote \u2014 demo supplier message",
+  "received_at": "2026-09-19T15:45:11.485356+00:00",
+  "method": "gemini_vision",
+  "checksum": "9e76f4affd5280108c3bcd830e157e0c4f2396d1d5b78a5f8cf51884ec2916d2",
+  "unresolved": [
+    "Line 18 (BX-3P-500-350-250) price '15.34' is struck through/crossed out, resulting in an unclear quote status and null raw_price."
+  ],
+  "model": "gemini-3.8-flash",
+  "source_path": "/Users/karanpurohit/Documents/Codex/2026-09-19/referenced-chatgpt-conversation-this-is-an/work/aerchain-codex-handoff/prototype/demo-data/generated/vendor_d_alphapack_rate_card_photo.jpg",
+  "terms_evidence_id": "52b72740-c301-443b-a390-55abe3d26a32",
+  "packet_checksum": "159c276ca89b1548a44456ce0a4fd3bec7cf2331eb696a10a7bb5cf13c35aaa7"
+}

@@ -1,0 +1,458 @@
+{
+  "summary": "Corrpro International quoted all 30 RFx lines in USD per 100 pieces, with 14-day lead time. Prices are DDP to RFx delivery locations; taxes are excluded. A conditional 3.0% retrospective year-end volume rebate applies only above USD 350,000 aggregate awarded annual value and is not included in quoted unit rates.",
+  "quote_lines": [
+    {
+      "line_no": 1,
+      "sku": "BX-5P-450-300-250",
+      "quote_status": "quoted",
+      "raw_price": 23.51,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "1 BX-5P-450-300-250 5-ply RSC box 450x300x250 mm 39,000 23.51 14d"
+    },
+    {
+      "line_no": 2,
+      "sku": "BX-5P-500-350-300",
+      "quote_status": "quoted",
+      "raw_price": 28.99,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "2 BX-5P-500-350-300 5-ply RSC box 500x350x300 mm 51,000 28.99 14d"
+    },
+    {
+      "line_no": 3,
+      "sku": "BX-5P-600-400-350",
+      "quote_status": "quoted",
+      "raw_price": 38.4,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "3 BX-5P-600-400-350 5-ply RSC box 600x400x350 mm 62,000 38.40 14d"
+    },
+    {
+      "line_no": 4,
+      "sku": "BX-5P-420-320-280",
+      "quote_status": "quoted",
+      "raw_price": 25.05,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "4 BX-5P-420-320-280 5-ply die-cut box 420x320x280 mm 73,000 25.05 14d"
+    },
+    {
+      "line_no": 5,
+      "sku": "BX-5P-380-280-220",
+      "quote_status": "quoted",
+      "raw_price": 19.23,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "5 BX-5P-380-280-220 5-ply RSC box 380x280x220 mm 84,000 19.23 14d"
+    },
+    {
+      "line_no": 6,
+      "sku": "BX-5P-550-380-320",
+      "quote_status": "quoted",
+      "raw_price": 33.87,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "6 BX-5P-550-380-320 5-ply RSC box 550x380x320 mm 96,000 33.87 14d"
+    },
+    {
+      "line_no": 7,
+      "sku": "BX-5P-480-330-260",
+      "quote_status": "quoted",
+      "raw_price": 27.72,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "7 BX-5P-480-330-260 5-ply RSC box 480x330x260 mm 107,000 27.72 14d"
+    },
+    {
+      "line_no": 8,
+      "sku": "BX-5P-650-450-400",
+      "quote_status": "quoted",
+      "raw_price": 47.04,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "8 BX-5P-650-450-400 5-ply heavy-duty box 650x450x400 mm 118,000 47.04 14d"
+    },
+    {
+      "line_no": 9,
+      "sku": "BX-5P-440-310-240",
+      "quote_status": "quoted",
+      "raw_price": 23.98,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "9 BX-5P-440-310-240 5-ply printed box 440x310x240 mm 130,000 23.98 14d"
+    },
+    {
+      "line_no": 10,
+      "sku": "BX-5P-520-360-290",
+      "quote_status": "quoted",
+      "raw_price": 30.31,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "10 BX-5P-520-360-290 5-ply RSC box 520x360x290 mm 141,000 30.31 14d"
+    },
+    {
+      "line_no": 11,
+      "sku": "BX-3P-300-200-150",
+      "quote_status": "quoted",
+      "raw_price": 10.58,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "11 BX-3P-300-200-150 3-ply RSC box 300x200x150 mm 152,000 10.58 14d"
+    },
+    {
+      "line_no": 12,
+      "sku": "BX-3P-350-250-180",
+      "quote_status": "quoted",
+      "raw_price": 12.39,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "12 BX-3P-350-250-180 3-ply RSC box 350x250x180 mm 37,000 12.39 14d"
+    },
+    {
+      "line_no": 13,
+      "sku": "BX-3P-400-300-200",
+      "quote_status": "quoted",
+      "raw_price": 14.82,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "13 BX-3P-400-300-200 3-ply RSC box 400x300x200 mm 48,000 14.82 14d"
+    },
+    {
+      "line_no": 14,
+      "sku": "BX-3P-280-180-120",
+      "quote_status": "quoted",
+      "raw_price": 9.1,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "14 BX-3P-280-180-120 3-ply mailer box 280x180x120 mm 59,000 9.10 14d"
+    },
+    {
+      "line_no": 15,
+      "sku": "BX-3P-450-320-220",
+      "quote_status": "quoted",
+      "raw_price": 17.5,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "15 BX-3P-450-320-220 3-ply RSC box 450x320x220 mm 71,000 17.50 14d"
+    },
+    {
+      "line_no": 16,
+      "sku": "BX-3P-320-220-160",
+      "quote_status": "quoted",
+      "raw_price": 11.31,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "16 BX-3P-320-220-160 3-ply RSC box 320x220x160 mm 82,000 11.31 14d"
+    },
+    {
+      "line_no": 17,
+      "sku": "BX-3P-380-260-180",
+      "quote_status": "quoted",
+      "raw_price": 13.76,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "17 BX-3P-380-260-180 3-ply printed box 380x260x180 mm 93,000 13.76 14d"
+    },
+    {
+      "line_no": 18,
+      "sku": "BX-3P-500-350-250",
+      "quote_status": "quoted",
+      "raw_price": 19.46,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "18 BX-3P-500-350-250 3-ply RSC box 500x350x250 mm 104,000 19.46 14d"
+    },
+    {
+      "line_no": 19,
+      "sku": "DV-5P-450-280",
+      "quote_status": "quoted",
+      "raw_price": 7.07,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "19 DV-5P-450-280 5-ply corrugated divider 450x280 mm 116,000 7.07 14d"
+    },
+    {
+      "line_no": 20,
+      "sku": "DV-5P-520-320",
+      "quote_status": "quoted",
+      "raw_price": 8.64,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "20 DV-5P-520-320 5-ply corrugated divider 520x320 mm 127,000 8.64 14d"
+    },
+    {
+      "line_no": 21,
+      "sku": "DV-3P-350-220",
+      "quote_status": "quoted",
+      "raw_price": 4.09,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "21 DV-3P-350-220 3-ply corrugated divider 350x220 mm 138,000 4.09 14d"
+    },
+    {
+      "line_no": 22,
+      "sku": "DV-3P-420-260",
+      "quote_status": "quoted",
+      "raw_price": 4.96,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "22 DV-3P-420-260 3-ply corrugated divider 420x260 mm 150,000 4.96 14d"
+    },
+    {
+      "line_no": 23,
+      "sku": "PD-3P-300-200",
+      "quote_status": "quoted",
+      "raw_price": 3.67,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "23 PD-3P-300-200 3-ply corrugated pad 300x200 mm 34,000 3.67 14d"
+    },
+    {
+      "line_no": 24,
+      "sku": "PD-5P-450-300",
+      "quote_status": "quoted",
+      "raw_price": 7.8,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "24 PD-5P-450-300 5-ply corrugated pad 450x300 mm 45,000 7.80 14d"
+    },
+    {
+      "line_no": 25,
+      "sku": "SH-5P-1000-800",
+      "quote_status": "quoted",
+      "raw_price": 25,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "25 SH-5P-1000-800 5-ply corrugated sheet 1000x800 mm 57,000 25.00 14d"
+    },
+    {
+      "line_no": 26,
+      "sku": "SH-5P-1200-900",
+      "quote_status": "quoted",
+      "raw_price": 32.7,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "26 SH-5P-1200-900 5-ply corrugated sheet 1200x900 mm 68,000 32.70 14d"
+    },
+    {
+      "line_no": 27,
+      "sku": "SH-3P-900-600",
+      "quote_status": "quoted",
+      "raw_price": 13.37,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "27 SH-3P-900-600 3-ply corrugated sheet 900x600 mm 79,000 13.37 14d"
+    },
+    {
+      "line_no": 28,
+      "sku": "SH-3P-1100-700",
+      "quote_status": "quoted",
+      "raw_price": 17.34,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "28 SH-3P-1100-700 3-ply corrugated sheet 1100x700 mm 91,000 17.34 14d"
+    },
+    {
+      "line_no": 29,
+      "sku": "SL-5P-500-60",
+      "quote_status": "quoted",
+      "raw_price": 5.78,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "29 SL-5P-500-60 5-ply corrugated sleeve 500x60 mm 102,000 5.78 14d"
+    },
+    {
+      "line_no": 30,
+      "sku": "SL-3P-420-50",
+      "quote_status": "quoted",
+      "raw_price": 3.46,
+      "raw_currency": "USD",
+      "raw_basis": "100_piece",
+      "pack_size": 100,
+      "lead_days": 14,
+      "confidence": 0.99,
+      "source_text": "30 SL-3P-420-50 3-ply corrugated sleeve 420x50 mm 113,000 3.46 14d"
+    }
+  ],
+  "commercial_terms": [
+    {
+      "term_type": "currency",
+      "value": "USD",
+      "confidence": 0.99,
+      "source_text": "Currency: USD"
+    },
+    {
+      "term_type": "incoterm_freight",
+      "value": "DDP Bengaluru/Hosur; prices are DDP to the delivery locations listed in the RFx.",
+      "confidence": 0.99,
+      "source_text": "Incoterm: DDP Bengaluru/Hosur / Prices are DDP to the delivery locations listed in the RFx."
+    },
+    {
+      "term_type": "taxes",
+      "value": "Taxes are excluded.",
+      "confidence": 0.99,
+      "source_text": "Taxes are excluded."
+    },
+    {
+      "term_type": "offer_validity",
+      "value": "Offer valid for 60 days.",
+      "confidence": 0.99,
+      "source_text": "Offer valid for 60 days."
+    },
+    {
+      "term_type": "volume_rebate",
+      "value": "A 3.0% year-end volume rebate applies only if aggregate awarded annual value exceeds USD 350,000. Rebate is retrospective and is not reflected in the unit rates above.",
+      "confidence": 0.99,
+      "source_text": "A 3.0% year-end volume rebate applies only if aggregate awarded annual value exceeds USD 350,000. Rebate is retrospective and is not reflected in the unit rates above."
+    },
+    {
+      "term_type": "certification",
+      "value": "ISO 9001 valid; FSC CoC valid.",
+      "confidence": 0.99,
+      "source_text": "Quality: ISO 9001 valid; FSC CoC valid; all quoted grades meet stated burst factor."
+    },
+    {
+      "term_type": "quality_compliance",
+      "value": "All quoted grades meet stated burst factor.",
+      "confidence": 0.99,
+      "source_text": "Quality: ISO 9001 valid; FSC CoC valid; all quoted grades meet stated burst factor."
+    },
+    {
+      "term_type": "recycled_fibre_content",
+      "value": "Average recycled fibre content 76%.",
+      "confidence": 0.99,
+      "source_text": "Average recycled fibre content 76%."
+    },
+    {
+      "term_type": "standard_lead_time",
+      "value": "Standard lead time 14 calendar days.",
+      "confidence": 0.99,
+      "source_text": "Standard lead time 14 calendar days."
+    }
+  ],
+  "questionnaire_answers": [
+    {
+      "question_id": "Q1",
+      "answer": "Yes \u2014 ISO 9001 valid.",
+      "confidence": 0.99,
+      "source_text": "Quality: ISO 9001 valid; FSC CoC valid; all quoted grades meet stated burst factor."
+    },
+    {
+      "question_id": "Q2",
+      "answer": "Yes \u2014 FSC CoC valid.",
+      "confidence": 0.99,
+      "source_text": "Quality: ISO 9001 valid; FSC CoC valid; all quoted grades meet stated burst factor."
+    },
+    {
+      "question_id": "Q3",
+      "answer": "Yes \u2014 all quoted grades meet stated burst factor.",
+      "confidence": 0.99,
+      "source_text": "Quality: ISO 9001 valid; FSC CoC valid; all quoted grades meet stated burst factor."
+    },
+    {
+      "question_id": "Q4",
+      "answer": "76%.",
+      "confidence": 0.99,
+      "source_text": "Average recycled fibre content 76%."
+    },
+    {
+      "question_id": "Q6",
+      "answer": "14 calendar days.",
+      "confidence": 0.99,
+      "source_text": "Standard lead time 14 calendar days."
+    }
+  ],
+  "unresolved": [
+    "No answer was provided for Q5 (manufacturing plant within 500 km of Bengaluru).",
+    "No answer was provided for Q7 (batch-wise COA on request).",
+    "No answer was provided for Q8 (minimum order quantity constraints beyond RFx quantities)."
+  ]
+}

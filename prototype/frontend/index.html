@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sourcing Decision Room</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="stylesheet" href="/assets/experience.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brandmark">a.</div><div><b>aerchain</b><span>Decision room</span></div></div>
+      <nav id="nav">
+        <button class="navitem active" data-view="rfx"><span>01</span> RFx Builder</button>
+        <button class="navitem" data-view="responses"><span>02</span> Responses</button>
+        <button class="navitem" data-view="compare"><span>03</span> Review & Compare</button>
+        <button class="navitem" data-view="analysis"><span>04</span> Analysis Room</button>
+      </nav>
+      <div class="sidefoot"><div class="pulse"></div><div><b id="aiStatus">Connecting…</b><span>Evidence behind every decision</span></div></div>
+    </aside>
+    <main>
+      <header class="topbar">
+        <div><div class="eyebrow">SOURCING EVENT · <span id="eventId">...</span></div><h1 id="eventTitle">Loading…</h1></div>
+        <div class="header-actions"><button class="primary" data-view="analysis">Ask this event</button></div>
+      </header>
+      <section class="kpis" id="kpis"></section>
+      <section id="view-rfx" class="view active"></section>
+      <section id="view-responses" class="view"></section>
+      <section id="view-compare" class="view"></section>
+      <section id="view-analysis" class="view"></section>
+    </main>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="drawer" id="drawer"><button class="drawer-close" id="drawerClose">×</button><div id="drawerBody"></div></aside>
+  <script src="/assets/app.js"></script>
+  <script src="/assets/charts.js"></script>
+  <script src="/assets/experience.js"></script>
+</body>
+</html>

@@ -1,0 +1,2125 @@
+{
+  "model": "gpt-5.6-terra",
+  "mode": "live",
+  "started_at": "2026-09-19T05:25:39.304381+00:00",
+  "checks": [
+    {
+      "name": "RFx structured draft",
+      "passed": true,
+      "detail": "openai"
+    },
+    {
+      "name": "RFx approval interrupt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Five vendor ingestion branches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Human review interrupt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Native fixture coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Partial quote stays missing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prior-year assumptions held for review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "packright normalization",
+      "passed": true,
+      "detail": {
+        "compared": 30,
+        "within_tolerance": 30,
+        "mae_inr": 0.0,
+        "max_error_inr": 0.0,
+        "withheld_lines": [],
+        "mismatches": []
+      }
+    },
+    {
+      "name": "corrpro normalization",
+      "passed": true,
+      "detail": {
+        "compared": 30,
+        "within_tolerance": 30,
+        "mae_inr": 0.0,
+        "max_error_inr": 0.0,
+        "withheld_lines": [],
+        "mismatches": []
+      }
+    },
+    {
+      "name": "boxworks normalization",
+      "passed": true,
+      "detail": {
+        "compared": 27,
+        "within_tolerance": 27,
+        "mae_inr": 0.0,
+        "max_error_inr": 0.0,
+        "withheld_lines": [],
+        "mismatches": []
+      }
+    },
+    {
+      "name": "alphapack normalization",
+      "passed": true,
+      "detail": {
+        "compared": 29,
+        "within_tolerance": 29,
+        "mae_inr": 0.0,
+        "max_error_inr": 0.0,
+        "withheld_lines": [
+          18
+        ],
+        "mismatches": []
+      }
+    },
+    {
+      "name": "greencarton normalization",
+      "passed": true,
+      "detail": {
+        "compared": 30,
+        "within_tolerance": 30,
+        "mae_inr": 0.0006666666666666524,
+        "max_error_inr": 0.010000000000001563,
+        "withheld_lines": [],
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Photo obscured price abstention",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mandatory FSC failure detected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bundle units extracted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "AI PDF conditional rebate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scenario intent: Cheapest qualified supplier per line",
+      "passed": true,
+      "detail": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": null,
+        "max_delivery_days": null,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      }
+    },
+    {
+      "name": "Scenario outcome: Cheapest qualified supplier per line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Allocation integrity: Cheapest qualified supplier per line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scenario intent: Qualified only, no supplier above 45% of award spend",
+      "passed": true,
+      "detail": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": 0.45,
+        "max_delivery_days": null,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      }
+    },
+    {
+      "name": "Scenario outcome: Qualified only, no supplier above 45% of award spend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Allocation integrity: Qualified only, no supplier above 45% of award spend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Spend cap: Qualified only, no supplier above 45% of award spend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scenario intent: Qualified only, no supplier above 55% of award spend",
+      "passed": true,
+      "detail": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": 0.55,
+        "max_delivery_days": null,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      }
+    },
+    {
+      "name": "Scenario outcome: Qualified only, no supplier above 55% of award spend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Allocation integrity: Qualified only, no supplier above 55% of award spend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Spend cap: Qualified only, no supplier above 55% of award spend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scenario intent: Qualified suppliers with delivery within 14 days",
+      "passed": true,
+      "detail": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": null,
+        "max_delivery_days": 14,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      }
+    },
+    {
+      "name": "Scenario outcome: Qualified suppliers with delivery within 14 days",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Allocation integrity: Qualified suppliers with delivery within 14 days",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scenario intent: Qualified suppliers with delivery within 1 day",
+      "passed": true,
+      "detail": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": null,
+        "max_delivery_days": 1,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      }
+    },
+    {
+      "name": "Scenario outcome: Qualified suppliers with delivery within 1 day",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent cheapest-line oracle",
+      "passed": true,
+      "detail": 39195860.0
+    },
+    {
+      "name": "Clarification changes only reviewed price",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Historical scenario marked stale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Historical award reproducible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CSV export includes all lines",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "coverage": {
+    "packright": {
+      "attempted": 30,
+      "method": "native_xlsx",
+      "qualification": "pass"
+    },
+    "corrpro": {
+      "attempted": 30,
+      "method": "native_pdf_table_plus_text",
+      "qualification": "pass"
+    },
+    "boxworks": {
+      "attempted": 27,
+      "method": "native_docx_table_plus_text",
+      "qualification": "pending"
+    },
+    "alphapack": {
+      "attempted": 30,
+      "method": "openai_vision",
+      "qualification": "fail"
+    },
+    "greencarton": {
+      "attempted": 30,
+      "method": "native_email_regex",
+      "qualification": "pass"
+    }
+  },
+  "extraction": {
+    "packright": {
+      "compared": 30,
+      "within_tolerance": 30,
+      "mae_inr": 0.0,
+      "max_error_inr": 0.0,
+      "withheld_lines": [],
+      "mismatches": []
+    },
+    "corrpro": {
+      "compared": 30,
+      "within_tolerance": 30,
+      "mae_inr": 0.0,
+      "max_error_inr": 0.0,
+      "withheld_lines": [],
+      "mismatches": []
+    },
+    "boxworks": {
+      "compared": 27,
+      "within_tolerance": 27,
+      "mae_inr": 0.0,
+      "max_error_inr": 0.0,
+      "withheld_lines": [],
+      "mismatches": []
+    },
+    "alphapack": {
+      "compared": 29,
+      "within_tolerance": 29,
+      "mae_inr": 0.0,
+      "max_error_inr": 0.0,
+      "withheld_lines": [
+        18
+      ],
+      "mismatches": []
+    },
+    "greencarton": {
+      "compared": 30,
+      "within_tolerance": 30,
+      "mae_inr": 0.0006666666666666524,
+      "max_error_inr": 0.010000000000001563,
+      "withheld_lines": [],
+      "mismatches": []
+    }
+  },
+  "scenarios": [
+    {
+      "status": "ok",
+      "spec": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": null,
+        "max_delivery_days": null,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      },
+      "dataset_version": 13,
+      "assumptions": [
+        "FX: USD/INR 83.2",
+        "GST excluded from comparison",
+        "Conditional rebates are not applied unless explicitly resolved into normalized commercial terms",
+        "Pending/failed suppliers are excluded when qualified_suppliers_only=true"
+      ],
+      "baseline_total_inr": 41054650.0,
+      "award_total_inr": 39195860.0,
+      "award_total_cr": 3.92,
+      "savings_inr": 1858790.0,
+      "savings_pct": 4.53,
+      "covered_baseline_inr": 41054650.0,
+      "complete_award": true,
+      "solver_gap": 0.0,
+      "supplier_count": 2,
+      "uncovered_lines": [],
+      "vendor_mix": [
+        {
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "spend": 35183570.0,
+          "share": 0.8976,
+          "lines": 27
+        },
+        {
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "spend": 4012290.0,
+          "share": 0.1024,
+          "lines": 3
+        }
+      ],
+      "allocation": [
+        {
+          "line_no": 1,
+          "sku": "BX-5P-450-300-250",
+          "description": "5-ply RSC box 450x300x250 mm",
+          "qty": 39000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 19.56,
+          "total_cost": 762840.0,
+          "evidence_id": "5a9295d6-9a49-43fe-a2e8-ecc08d544b7e"
+        },
+        {
+          "line_no": 2,
+          "sku": "BX-5P-500-350-300",
+          "description": "5-ply RSC box 500x350x300 mm",
+          "qty": 51000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 24.12,
+          "total_cost": 1230120.0,
+          "evidence_id": "3224c20c-0b6b-411c-9e4a-3869c17f0afd"
+        },
+        {
+          "line_no": 3,
+          "sku": "BX-5P-600-400-350",
+          "description": "5-ply RSC box 600x400x350 mm",
+          "qty": 62000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 31.95,
+          "total_cost": 1980900.0,
+          "evidence_id": "94dcca78-158e-40a4-b0f7-e67630949e1e"
+        },
+        {
+          "line_no": 4,
+          "sku": "BX-5P-420-320-280",
+          "description": "5-ply die-cut box 420x320x280 mm",
+          "qty": 73000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 20.84,
+          "total_cost": 1521320.0,
+          "evidence_id": "a6fbfb42-1d9b-4b92-86fb-73fde5c0f6f8"
+        },
+        {
+          "line_no": 5,
+          "sku": "BX-5P-380-280-220",
+          "description": "5-ply RSC box 380x280x220 mm",
+          "qty": 84000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 16.0,
+          "total_cost": 1344000.0,
+          "evidence_id": "0d95c116-b6bb-4351-accf-ac322c354b8f"
+        },
+        {
+          "line_no": 6,
+          "sku": "BX-5P-550-380-320",
+          "description": "5-ply RSC box 550x380x320 mm",
+          "qty": 96000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 28.05,
+          "total_cost": 2692800.0,
+          "evidence_id": "00e26c75-0e4f-4b61-887a-05e159d533c7"
+        },
+        {
+          "line_no": 7,
+          "sku": "BX-5P-480-330-260",
+          "description": "5-ply RSC box 480x330x260 mm",
+          "qty": 107000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 23.06,
+          "total_cost": 2467420.0,
+          "evidence_id": "79079b2f-dd48-40ee-8610-95a776613e57"
+        },
+        {
+          "line_no": 8,
+          "sku": "BX-5P-650-450-400",
+          "description": "5-ply heavy-duty box 650x450x400 mm",
+          "qty": 118000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 39.14,
+          "total_cost": 4618520.0,
+          "evidence_id": "0d23f2f2-49dc-4dae-b7aa-0dd591cd1623"
+        },
+        {
+          "line_no": 9,
+          "sku": "BX-5P-440-310-240",
+          "description": "5-ply printed box 440x310x240 mm",
+          "qty": 130000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 19.95,
+          "total_cost": 2593500.0,
+          "evidence_id": "260f39ea-cc79-4c1a-ba14-058ba977319f"
+        },
+        {
+          "line_no": 10,
+          "sku": "BX-5P-520-360-290",
+          "description": "5-ply RSC box 520x360x290 mm",
+          "qty": 141000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 25.22,
+          "total_cost": 3556020.0,
+          "evidence_id": "d6ff16aa-98d6-45ed-8460-2bdb04d01ef0"
+        },
+        {
+          "line_no": 11,
+          "sku": "BX-3P-300-200-150",
+          "description": "3-ply RSC box 300x200x150 mm",
+          "qty": 152000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 8.8,
+          "total_cost": 1337600.0,
+          "evidence_id": "eb741fe4-858f-4ab8-b8ac-95d2812f5d91"
+        },
+        {
+          "line_no": 12,
+          "sku": "BX-3P-350-250-180",
+          "description": "3-ply RSC box 350x250x180 mm",
+          "qty": 37000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 10.31,
+          "total_cost": 381470.0,
+          "evidence_id": "ca66c430-2ffd-422b-9b19-956bf41a6103"
+        },
+        {
+          "line_no": 13,
+          "sku": "BX-3P-400-300-200",
+          "description": "3-ply RSC box 400x300x200 mm",
+          "qty": 48000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 12.33,
+          "total_cost": 591840.0,
+          "evidence_id": "16d266fd-e5de-4bb2-89fd-2cee659669df"
+        },
+        {
+          "line_no": 14,
+          "sku": "BX-3P-280-180-120",
+          "description": "3-ply mailer box 280x180x120 mm",
+          "qty": 59000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 7.57,
+          "total_cost": 446630.0,
+          "evidence_id": "49241828-7c93-4532-888d-9820ca8005ad"
+        },
+        {
+          "line_no": 15,
+          "sku": "BX-3P-450-320-220",
+          "description": "3-ply RSC box 450x320x220 mm",
+          "qty": 71000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 14.49,
+          "total_cost": 1028790.0,
+          "evidence_id": "4c79052b-2442-4b1e-92fc-88a32b7a8cb8"
+        },
+        {
+          "line_no": 16,
+          "sku": "BX-3P-320-220-160",
+          "description": "3-ply RSC box 320x220x160 mm",
+          "qty": 82000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 9.41,
+          "total_cost": 771620.0,
+          "evidence_id": "1233929f-d307-43fd-bdec-7ffd2eb9dfcb"
+        },
+        {
+          "line_no": 17,
+          "sku": "BX-3P-380-260-180",
+          "description": "3-ply printed box 380x260x180 mm",
+          "qty": 93000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 11.45,
+          "total_cost": 1064850.0,
+          "evidence_id": "f7454fca-8362-47f4-9b84-074bd546425c"
+        },
+        {
+          "line_no": 18,
+          "sku": "BX-3P-500-350-250",
+          "description": "3-ply RSC box 500x350x250 mm",
+          "qty": 104000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 16.19,
+          "total_cost": 1683760.0,
+          "evidence_id": "57c4f412-a947-4741-8178-db71125dc33c"
+        },
+        {
+          "line_no": 19,
+          "sku": "DV-5P-450-280",
+          "description": "5-ply corrugated divider 450x280 mm",
+          "qty": 116000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 5.88,
+          "total_cost": 682080.0,
+          "evidence_id": "35029a8b-d065-4ca7-a08e-6efeb60bb0b1"
+        },
+        {
+          "line_no": 20,
+          "sku": "DV-5P-520-320",
+          "description": "5-ply corrugated divider 520x320 mm",
+          "qty": 127000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 7.19,
+          "total_cost": 913130.0,
+          "evidence_id": "08062cf2-d743-4596-90a5-28cb9d6939ba"
+        },
+        {
+          "line_no": 21,
+          "sku": "DV-3P-350-220",
+          "description": "3-ply corrugated divider 350x220 mm",
+          "qty": 138000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 3.4,
+          "total_cost": 469200.0,
+          "evidence_id": "61c414a5-48ed-4d40-a1e7-efa8ce62de90"
+        },
+        {
+          "line_no": 22,
+          "sku": "DV-3P-420-260",
+          "description": "3-ply corrugated divider 420x260 mm",
+          "qty": 150000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 4.13,
+          "total_cost": 619500.0,
+          "evidence_id": "64d85c62-b911-48fd-83a9-c43318e0e483"
+        },
+        {
+          "line_no": 23,
+          "sku": "PD-3P-300-200",
+          "description": "3-ply corrugated pad 300x200 mm",
+          "qty": 34000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 3.05,
+          "total_cost": 103700.0,
+          "evidence_id": "ab763a1f-ed00-496f-b780-b7262155c7be"
+        },
+        {
+          "line_no": 24,
+          "sku": "PD-5P-450-300",
+          "description": "5-ply corrugated pad 450x300 mm",
+          "qty": 45000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 6.46,
+          "total_cost": 290700.0,
+          "evidence_id": "ba05d7ec-95d6-4392-b3de-33ccb4bff35d"
+        },
+        {
+          "line_no": 25,
+          "sku": "SH-5P-1000-800",
+          "description": "5-ply corrugated sheet 1000x800 mm",
+          "qty": 57000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 20.8,
+          "total_cost": 1185600.0,
+          "evidence_id": "69db044f-0a4d-4b6e-ab71-1568f6f22781"
+        },
+        {
+          "line_no": 26,
+          "sku": "SH-5P-1200-900",
+          "description": "5-ply corrugated sheet 1200x900 mm",
+          "qty": 68000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 27.21,
+          "total_cost": 1850280.0,
+          "evidence_id": "edf9dd5b-7280-4803-9aa1-b03c84014b1c"
+        },
+        {
+          "line_no": 27,
+          "sku": "SH-3P-900-600",
+          "description": "3-ply corrugated sheet 900x600 mm",
+          "qty": 79000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 11.12,
+          "total_cost": 878480.0,
+          "evidence_id": "5829fb27-dd41-490d-9729-eab6e84b9ffe"
+        },
+        {
+          "line_no": 28,
+          "sku": "SH-3P-1100-700",
+          "description": "3-ply corrugated sheet 1100x700 mm",
+          "qty": 91000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 14.43,
+          "total_cost": 1313130.0,
+          "evidence_id": "d8dad68b-1976-4c36-bf27-6fb992d4283f"
+        },
+        {
+          "line_no": 29,
+          "sku": "SL-5P-500-60",
+          "description": "5-ply corrugated sleeve 500x60 mm",
+          "qty": 102000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 4.81,
+          "total_cost": 490620.0,
+          "evidence_id": "a03fadd7-cf64-494f-9a65-6b3cb2b79a83"
+        },
+        {
+          "line_no": 30,
+          "sku": "SL-3P-420-50",
+          "description": "3-ply corrugated sleeve 420x50 mm",
+          "qty": 113000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 2.88,
+          "total_cost": 325440.0,
+          "evidence_id": "0b265a5b-2099-442b-8abe-e9772a759645"
+        }
+      ],
+      "open_exceptions": [
+        {
+          "id": "corrpro:0:conditional_discount",
+          "title": "Conditional volume rebate"
+        },
+        {
+          "id": "boxworks:0:qualification",
+          "title": "Mandatory qualification pending"
+        },
+        {
+          "id": "alphapack:0:qualification",
+          "title": "Mandatory qualification fail"
+        },
+        {
+          "id": "alphapack:0:document_review",
+          "title": "Source interpretation notes"
+        },
+        {
+          "id": "boxworks:7:missing_quote",
+          "title": "Line 7: not quoted"
+        },
+        {
+          "id": "alphapack:18:review_price",
+          "title": "Line 18: review price"
+        },
+        {
+          "id": "boxworks:28:missing_quote",
+          "title": "Line 28: not quoted"
+        },
+        {
+          "id": "boxworks:19:missing_quote",
+          "title": "Line 19: not quoted"
+        }
+      ],
+      "provisional": true,
+      "id": "5492fd40-f317-4970-83e0-09096e63cb7e",
+      "created_at": "2026-09-19T05:27:07.203415+00:00",
+      "question": "Cheapest qualified supplier per line",
+      "interpreter": "openai",
+      "stale": false
+    },
+    {
+      "status": "ok",
+      "spec": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": 0.45,
+        "max_delivery_days": null,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      },
+      "dataset_version": 13,
+      "assumptions": [
+        "FX: USD/INR 83.2",
+        "GST excluded from comparison",
+        "Conditional rebates are not applied unless explicitly resolved into normalized commercial terms",
+        "Pending/failed suppliers are excluded when qualified_suppliers_only=true"
+      ],
+      "baseline_total_inr": 41054650.0,
+      "award_total_inr": 39377480.0,
+      "award_total_cr": 3.938,
+      "savings_inr": 1677170.0,
+      "savings_pct": 4.09,
+      "covered_baseline_inr": 41054650.0,
+      "complete_award": true,
+      "solver_gap": 0.0,
+      "supplier_count": 3,
+      "uncovered_lines": [],
+      "vendor_mix": [
+        {
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "spend": 17717080.0,
+          "share": 0.4499,
+          "lines": 15
+        },
+        {
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "spend": 16974620.0,
+          "share": 0.4311,
+          "lines": 14
+        },
+        {
+          "vendor_id": "greencarton",
+          "vendor_name": "GreenCarton Co.",
+          "spend": 4685780.0,
+          "share": 0.119,
+          "lines": 1
+        }
+      ],
+      "allocation": [
+        {
+          "line_no": 1,
+          "sku": "BX-5P-450-300-250",
+          "description": "5-ply RSC box 450x300x250 mm",
+          "qty": 39000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 19.56,
+          "total_cost": 762840.0,
+          "evidence_id": "5a9295d6-9a49-43fe-a2e8-ecc08d544b7e"
+        },
+        {
+          "line_no": 2,
+          "sku": "BX-5P-500-350-300",
+          "description": "5-ply RSC box 500x350x300 mm",
+          "qty": 51000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 24.12,
+          "total_cost": 1230120.0,
+          "evidence_id": "3224c20c-0b6b-411c-9e4a-3869c17f0afd"
+        },
+        {
+          "line_no": 3,
+          "sku": "BX-5P-600-400-350",
+          "description": "5-ply RSC box 600x400x350 mm",
+          "qty": 62000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 32.19,
+          "total_cost": 1995780.0,
+          "evidence_id": "d97c2293-b96a-4465-b3ab-1ef316089474"
+        },
+        {
+          "line_no": 4,
+          "sku": "BX-5P-420-320-280",
+          "description": "5-ply die-cut box 420x320x280 mm",
+          "qty": 73000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 21.17,
+          "total_cost": 1545410.0,
+          "evidence_id": "e2d22cd7-5dc4-4501-86fb-28a364556777"
+        },
+        {
+          "line_no": 5,
+          "sku": "BX-5P-380-280-220",
+          "description": "5-ply RSC box 380x280x220 mm",
+          "qty": 84000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 16.0,
+          "total_cost": 1344000.0,
+          "evidence_id": "0d95c116-b6bb-4351-accf-ac322c354b8f"
+        },
+        {
+          "line_no": 6,
+          "sku": "BX-5P-550-380-320",
+          "description": "5-ply RSC box 550x380x320 mm",
+          "qty": 96000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 28.05,
+          "total_cost": 2692800.0,
+          "evidence_id": "00e26c75-0e4f-4b61-887a-05e159d533c7"
+        },
+        {
+          "line_no": 7,
+          "sku": "BX-5P-480-330-260",
+          "description": "5-ply RSC box 480x330x260 mm",
+          "qty": 107000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 23.15,
+          "total_cost": 2477050.0,
+          "evidence_id": "daf55af5-fc8c-43f2-8611-0eb87e5d79ad"
+        },
+        {
+          "line_no": 8,
+          "sku": "BX-5P-650-450-400",
+          "description": "5-ply heavy-duty box 650x450x400 mm",
+          "qty": 118000,
+          "vendor_id": "greencarton",
+          "vendor_name": "GreenCarton Co.",
+          "landed_unit_cost": 39.71,
+          "total_cost": 4685780.0,
+          "evidence_id": "445281e6-6691-4093-8a20-c705a58d3386"
+        },
+        {
+          "line_no": 9,
+          "sku": "BX-5P-440-310-240",
+          "description": "5-ply printed box 440x310x240 mm",
+          "qty": 130000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 19.95,
+          "total_cost": 2593500.0,
+          "evidence_id": "260f39ea-cc79-4c1a-ba14-058ba977319f"
+        },
+        {
+          "line_no": 10,
+          "sku": "BX-5P-520-360-290",
+          "description": "5-ply RSC box 520x360x290 mm",
+          "qty": 141000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 25.22,
+          "total_cost": 3556020.0,
+          "evidence_id": "d6ff16aa-98d6-45ed-8460-2bdb04d01ef0"
+        },
+        {
+          "line_no": 11,
+          "sku": "BX-3P-300-200-150",
+          "description": "3-ply RSC box 300x200x150 mm",
+          "qty": 152000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 8.8,
+          "total_cost": 1337600.0,
+          "evidence_id": "eb741fe4-858f-4ab8-b8ac-95d2812f5d91"
+        },
+        {
+          "line_no": 12,
+          "sku": "BX-3P-350-250-180",
+          "description": "3-ply RSC box 350x250x180 mm",
+          "qty": 37000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 10.31,
+          "total_cost": 381470.0,
+          "evidence_id": "ca66c430-2ffd-422b-9b19-956bf41a6103"
+        },
+        {
+          "line_no": 13,
+          "sku": "BX-3P-400-300-200",
+          "description": "3-ply RSC box 400x300x200 mm",
+          "qty": 48000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 12.52,
+          "total_cost": 600960.0,
+          "evidence_id": "f7fc8586-58cb-4723-86c4-c7f1aafb7f8b"
+        },
+        {
+          "line_no": 14,
+          "sku": "BX-3P-280-180-120",
+          "description": "3-ply mailer box 280x180x120 mm",
+          "qty": 59000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 7.57,
+          "total_cost": 446630.0,
+          "evidence_id": "49241828-7c93-4532-888d-9820ca8005ad"
+        },
+        {
+          "line_no": 15,
+          "sku": "BX-3P-450-320-220",
+          "description": "3-ply RSC box 450x320x220 mm",
+          "qty": 71000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 14.49,
+          "total_cost": 1028790.0,
+          "evidence_id": "4c79052b-2442-4b1e-92fc-88a32b7a8cb8"
+        },
+        {
+          "line_no": 16,
+          "sku": "BX-3P-320-220-160",
+          "description": "3-ply RSC box 320x220x160 mm",
+          "qty": 82000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 9.45,
+          "total_cost": 774900.0,
+          "evidence_id": "6aa79dbd-22cd-4937-9a42-f38ed6b81737"
+        },
+        {
+          "line_no": 17,
+          "sku": "BX-3P-380-260-180",
+          "description": "3-ply printed box 380x260x180 mm",
+          "qty": 93000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 11.59,
+          "total_cost": 1077870.0,
+          "evidence_id": "630efe7f-21c5-4f6e-bb7c-d6e265a8a59a"
+        },
+        {
+          "line_no": 18,
+          "sku": "BX-3P-500-350-250",
+          "description": "3-ply RSC box 500x350x250 mm",
+          "qty": 104000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 16.19,
+          "total_cost": 1683760.0,
+          "evidence_id": "57c4f412-a947-4741-8178-db71125dc33c"
+        },
+        {
+          "line_no": 19,
+          "sku": "DV-5P-450-280",
+          "description": "5-ply corrugated divider 450x280 mm",
+          "qty": 116000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 5.88,
+          "total_cost": 682080.0,
+          "evidence_id": "35029a8b-d065-4ca7-a08e-6efeb60bb0b1"
+        },
+        {
+          "line_no": 20,
+          "sku": "DV-5P-520-320",
+          "description": "5-ply corrugated divider 520x320 mm",
+          "qty": 127000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 7.19,
+          "total_cost": 913130.0,
+          "evidence_id": "08062cf2-d743-4596-90a5-28cb9d6939ba"
+        },
+        {
+          "line_no": 21,
+          "sku": "DV-3P-350-220",
+          "description": "3-ply corrugated divider 350x220 mm",
+          "qty": 138000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 3.42,
+          "total_cost": 471960.0,
+          "evidence_id": "08f9045e-9c1c-4763-a4ee-f60f604a3c68"
+        },
+        {
+          "line_no": 22,
+          "sku": "DV-3P-420-260",
+          "description": "3-ply corrugated divider 420x260 mm",
+          "qty": 150000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 4.19,
+          "total_cost": 628500.0,
+          "evidence_id": "2f288139-a779-4bba-b736-31c79696b158"
+        },
+        {
+          "line_no": 23,
+          "sku": "PD-3P-300-200",
+          "description": "3-ply corrugated pad 300x200 mm",
+          "qty": 34000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 3.05,
+          "total_cost": 103700.0,
+          "evidence_id": "ab763a1f-ed00-496f-b780-b7262155c7be"
+        },
+        {
+          "line_no": 24,
+          "sku": "PD-5P-450-300",
+          "description": "5-ply corrugated pad 450x300 mm",
+          "qty": 45000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 6.46,
+          "total_cost": 290700.0,
+          "evidence_id": "ba05d7ec-95d6-4392-b3de-33ccb4bff35d"
+        },
+        {
+          "line_no": 25,
+          "sku": "SH-5P-1000-800",
+          "description": "5-ply corrugated sheet 1000x800 mm",
+          "qty": 57000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 20.88,
+          "total_cost": 1190160.0,
+          "evidence_id": "52f7fd26-4cce-43ec-8a25-2e370640da5a"
+        },
+        {
+          "line_no": 26,
+          "sku": "SH-5P-1200-900",
+          "description": "5-ply corrugated sheet 1200x900 mm",
+          "qty": 68000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 27.53,
+          "total_cost": 1872040.0,
+          "evidence_id": "b845c4b2-3d02-4832-924a-303903f6a779"
+        },
+        {
+          "line_no": 27,
+          "sku": "SH-3P-900-600",
+          "description": "3-ply corrugated sheet 900x600 mm",
+          "qty": 79000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 11.12,
+          "total_cost": 878480.0,
+          "evidence_id": "5829fb27-dd41-490d-9729-eab6e84b9ffe"
+        },
+        {
+          "line_no": 28,
+          "sku": "SH-3P-1100-700",
+          "description": "3-ply corrugated sheet 1100x700 mm",
+          "qty": 91000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 14.43,
+          "total_cost": 1313130.0,
+          "evidence_id": "d8dad68b-1976-4c36-bf27-6fb992d4283f"
+        },
+        {
+          "line_no": 29,
+          "sku": "SL-5P-500-60",
+          "description": "5-ply corrugated sleeve 500x60 mm",
+          "qty": 102000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 4.81,
+          "total_cost": 490620.0,
+          "evidence_id": "a03fadd7-cf64-494f-9a65-6b3cb2b79a83"
+        },
+        {
+          "line_no": 30,
+          "sku": "SL-3P-420-50",
+          "description": "3-ply corrugated sleeve 420x50 mm",
+          "qty": 113000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 2.9,
+          "total_cost": 327700.0,
+          "evidence_id": "a6d18d2c-7b94-4321-9307-87a7108c819d"
+        }
+      ],
+      "open_exceptions": [
+        {
+          "id": "corrpro:0:conditional_discount",
+          "title": "Conditional volume rebate"
+        },
+        {
+          "id": "boxworks:0:qualification",
+          "title": "Mandatory qualification pending"
+        },
+        {
+          "id": "alphapack:0:qualification",
+          "title": "Mandatory qualification fail"
+        },
+        {
+          "id": "alphapack:0:document_review",
+          "title": "Source interpretation notes"
+        },
+        {
+          "id": "boxworks:7:missing_quote",
+          "title": "Line 7: not quoted"
+        },
+        {
+          "id": "alphapack:18:review_price",
+          "title": "Line 18: review price"
+        },
+        {
+          "id": "boxworks:28:missing_quote",
+          "title": "Line 28: not quoted"
+        },
+        {
+          "id": "boxworks:19:missing_quote",
+          "title": "Line 19: not quoted"
+        }
+      ],
+      "provisional": true,
+      "id": "2d5c51cc-aa8a-4c3c-b732-a132d902fe48",
+      "created_at": "2026-09-19T05:27:09.262516+00:00",
+      "question": "Qualified only, no supplier above 45% of award spend",
+      "interpreter": "openai",
+      "stale": false
+    },
+    {
+      "status": "ok",
+      "spec": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": 0.55,
+        "max_delivery_days": null,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      },
+      "dataset_version": 13,
+      "assumptions": [
+        "FX: USD/INR 83.2",
+        "GST excluded from comparison",
+        "Conditional rebates are not applied unless explicitly resolved into normalized commercial terms",
+        "Pending/failed suppliers are excluded when qualified_suppliers_only=true"
+      ],
+      "baseline_total_inr": 41054650.0,
+      "award_total_inr": 39310450.0,
+      "award_total_cr": 3.931,
+      "savings_inr": 1744200.0,
+      "savings_pct": 4.25,
+      "covered_baseline_inr": 41054650.0,
+      "complete_award": true,
+      "solver_gap": 0.0,
+      "supplier_count": 2,
+      "uncovered_lines": [],
+      "vendor_mix": [
+        {
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "spend": 21514590.0,
+          "share": 0.5473,
+          "lines": 19
+        },
+        {
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "spend": 17795860.0,
+          "share": 0.4527,
+          "lines": 11
+        }
+      ],
+      "allocation": [
+        {
+          "line_no": 1,
+          "sku": "BX-5P-450-300-250",
+          "description": "5-ply RSC box 450x300x250 mm",
+          "qty": 39000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 19.56,
+          "total_cost": 762840.0,
+          "evidence_id": "5a9295d6-9a49-43fe-a2e8-ecc08d544b7e"
+        },
+        {
+          "line_no": 2,
+          "sku": "BX-5P-500-350-300",
+          "description": "5-ply RSC box 500x350x300 mm",
+          "qty": 51000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 24.12,
+          "total_cost": 1230120.0,
+          "evidence_id": "3224c20c-0b6b-411c-9e4a-3869c17f0afd"
+        },
+        {
+          "line_no": 3,
+          "sku": "BX-5P-600-400-350",
+          "description": "5-ply RSC box 600x400x350 mm",
+          "qty": 62000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 32.19,
+          "total_cost": 1995780.0,
+          "evidence_id": "d97c2293-b96a-4465-b3ab-1ef316089474"
+        },
+        {
+          "line_no": 4,
+          "sku": "BX-5P-420-320-280",
+          "description": "5-ply die-cut box 420x320x280 mm",
+          "qty": 73000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 20.84,
+          "total_cost": 1521320.0,
+          "evidence_id": "a6fbfb42-1d9b-4b92-86fb-73fde5c0f6f8"
+        },
+        {
+          "line_no": 5,
+          "sku": "BX-5P-380-280-220",
+          "description": "5-ply RSC box 380x280x220 mm",
+          "qty": 84000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 16.0,
+          "total_cost": 1344000.0,
+          "evidence_id": "0d95c116-b6bb-4351-accf-ac322c354b8f"
+        },
+        {
+          "line_no": 6,
+          "sku": "BX-5P-550-380-320",
+          "description": "5-ply RSC box 550x380x320 mm",
+          "qty": 96000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 28.05,
+          "total_cost": 2692800.0,
+          "evidence_id": "00e26c75-0e4f-4b61-887a-05e159d533c7"
+        },
+        {
+          "line_no": 7,
+          "sku": "BX-5P-480-330-260",
+          "description": "5-ply RSC box 480x330x260 mm",
+          "qty": 107000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 23.15,
+          "total_cost": 2477050.0,
+          "evidence_id": "daf55af5-fc8c-43f2-8611-0eb87e5d79ad"
+        },
+        {
+          "line_no": 8,
+          "sku": "BX-5P-650-450-400",
+          "description": "5-ply heavy-duty box 650x450x400 mm",
+          "qty": 118000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 39.61,
+          "total_cost": 4673980.0,
+          "evidence_id": "555a38f9-d551-44f0-8501-f3ede688044a"
+        },
+        {
+          "line_no": 9,
+          "sku": "BX-5P-440-310-240",
+          "description": "5-ply printed box 440x310x240 mm",
+          "qty": 130000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 19.95,
+          "total_cost": 2593500.0,
+          "evidence_id": "260f39ea-cc79-4c1a-ba14-058ba977319f"
+        },
+        {
+          "line_no": 10,
+          "sku": "BX-5P-520-360-290",
+          "description": "5-ply RSC box 520x360x290 mm",
+          "qty": 141000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 25.22,
+          "total_cost": 3556020.0,
+          "evidence_id": "d6ff16aa-98d6-45ed-8460-2bdb04d01ef0"
+        },
+        {
+          "line_no": 11,
+          "sku": "BX-3P-300-200-150",
+          "description": "3-ply RSC box 300x200x150 mm",
+          "qty": 152000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 8.8,
+          "total_cost": 1337600.0,
+          "evidence_id": "eb741fe4-858f-4ab8-b8ac-95d2812f5d91"
+        },
+        {
+          "line_no": 12,
+          "sku": "BX-3P-350-250-180",
+          "description": "3-ply RSC box 350x250x180 mm",
+          "qty": 37000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 10.31,
+          "total_cost": 381470.0,
+          "evidence_id": "ca66c430-2ffd-422b-9b19-956bf41a6103"
+        },
+        {
+          "line_no": 13,
+          "sku": "BX-3P-400-300-200",
+          "description": "3-ply RSC box 400x300x200 mm",
+          "qty": 48000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 12.33,
+          "total_cost": 591840.0,
+          "evidence_id": "16d266fd-e5de-4bb2-89fd-2cee659669df"
+        },
+        {
+          "line_no": 14,
+          "sku": "BX-3P-280-180-120",
+          "description": "3-ply mailer box 280x180x120 mm",
+          "qty": 59000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 7.57,
+          "total_cost": 446630.0,
+          "evidence_id": "49241828-7c93-4532-888d-9820ca8005ad"
+        },
+        {
+          "line_no": 15,
+          "sku": "BX-3P-450-320-220",
+          "description": "3-ply RSC box 450x320x220 mm",
+          "qty": 71000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 14.49,
+          "total_cost": 1028790.0,
+          "evidence_id": "4c79052b-2442-4b1e-92fc-88a32b7a8cb8"
+        },
+        {
+          "line_no": 16,
+          "sku": "BX-3P-320-220-160",
+          "description": "3-ply RSC box 320x220x160 mm",
+          "qty": 82000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 9.45,
+          "total_cost": 774900.0,
+          "evidence_id": "6aa79dbd-22cd-4937-9a42-f38ed6b81737"
+        },
+        {
+          "line_no": 17,
+          "sku": "BX-3P-380-260-180",
+          "description": "3-ply printed box 380x260x180 mm",
+          "qty": 93000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 11.45,
+          "total_cost": 1064850.0,
+          "evidence_id": "f7454fca-8362-47f4-9b84-074bd546425c"
+        },
+        {
+          "line_no": 18,
+          "sku": "BX-3P-500-350-250",
+          "description": "3-ply RSC box 500x350x250 mm",
+          "qty": 104000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 16.19,
+          "total_cost": 1683760.0,
+          "evidence_id": "57c4f412-a947-4741-8178-db71125dc33c"
+        },
+        {
+          "line_no": 19,
+          "sku": "DV-5P-450-280",
+          "description": "5-ply corrugated divider 450x280 mm",
+          "qty": 116000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 5.88,
+          "total_cost": 682080.0,
+          "evidence_id": "35029a8b-d065-4ca7-a08e-6efeb60bb0b1"
+        },
+        {
+          "line_no": 20,
+          "sku": "DV-5P-520-320",
+          "description": "5-ply corrugated divider 520x320 mm",
+          "qty": 127000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 7.19,
+          "total_cost": 913130.0,
+          "evidence_id": "08062cf2-d743-4596-90a5-28cb9d6939ba"
+        },
+        {
+          "line_no": 21,
+          "sku": "DV-3P-350-220",
+          "description": "3-ply corrugated divider 350x220 mm",
+          "qty": 138000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 3.42,
+          "total_cost": 471960.0,
+          "evidence_id": "08f9045e-9c1c-4763-a4ee-f60f604a3c68"
+        },
+        {
+          "line_no": 22,
+          "sku": "DV-3P-420-260",
+          "description": "3-ply corrugated divider 420x260 mm",
+          "qty": 150000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 4.13,
+          "total_cost": 619500.0,
+          "evidence_id": "64d85c62-b911-48fd-83a9-c43318e0e483"
+        },
+        {
+          "line_no": 23,
+          "sku": "PD-3P-300-200",
+          "description": "3-ply corrugated pad 300x200 mm",
+          "qty": 34000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 3.05,
+          "total_cost": 103700.0,
+          "evidence_id": "ab763a1f-ed00-496f-b780-b7262155c7be"
+        },
+        {
+          "line_no": 24,
+          "sku": "PD-5P-450-300",
+          "description": "5-ply corrugated pad 450x300 mm",
+          "qty": 45000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 6.46,
+          "total_cost": 290700.0,
+          "evidence_id": "ba05d7ec-95d6-4392-b3de-33ccb4bff35d"
+        },
+        {
+          "line_no": 25,
+          "sku": "SH-5P-1000-800",
+          "description": "5-ply corrugated sheet 1000x800 mm",
+          "qty": 57000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 20.88,
+          "total_cost": 1190160.0,
+          "evidence_id": "52f7fd26-4cce-43ec-8a25-2e370640da5a"
+        },
+        {
+          "line_no": 26,
+          "sku": "SH-5P-1200-900",
+          "description": "5-ply corrugated sheet 1200x900 mm",
+          "qty": 68000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 27.53,
+          "total_cost": 1872040.0,
+          "evidence_id": "b845c4b2-3d02-4832-924a-303903f6a779"
+        },
+        {
+          "line_no": 27,
+          "sku": "SH-3P-900-600",
+          "description": "3-ply corrugated sheet 900x600 mm",
+          "qty": 79000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 11.12,
+          "total_cost": 878480.0,
+          "evidence_id": "5829fb27-dd41-490d-9729-eab6e84b9ffe"
+        },
+        {
+          "line_no": 28,
+          "sku": "SH-3P-1100-700",
+          "description": "3-ply corrugated sheet 1100x700 mm",
+          "qty": 91000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 14.43,
+          "total_cost": 1313130.0,
+          "evidence_id": "d8dad68b-1976-4c36-bf27-6fb992d4283f"
+        },
+        {
+          "line_no": 29,
+          "sku": "SL-5P-500-60",
+          "description": "5-ply corrugated sleeve 500x60 mm",
+          "qty": 102000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 4.81,
+          "total_cost": 490620.0,
+          "evidence_id": "a03fadd7-cf64-494f-9a65-6b3cb2b79a83"
+        },
+        {
+          "line_no": 30,
+          "sku": "SL-3P-420-50",
+          "description": "3-ply corrugated sleeve 420x50 mm",
+          "qty": 113000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 2.9,
+          "total_cost": 327700.0,
+          "evidence_id": "a6d18d2c-7b94-4321-9307-87a7108c819d"
+        }
+      ],
+      "open_exceptions": [
+        {
+          "id": "corrpro:0:conditional_discount",
+          "title": "Conditional volume rebate"
+        },
+        {
+          "id": "boxworks:0:qualification",
+          "title": "Mandatory qualification pending"
+        },
+        {
+          "id": "alphapack:0:qualification",
+          "title": "Mandatory qualification fail"
+        },
+        {
+          "id": "alphapack:0:document_review",
+          "title": "Source interpretation notes"
+        },
+        {
+          "id": "boxworks:7:missing_quote",
+          "title": "Line 7: not quoted"
+        },
+        {
+          "id": "alphapack:18:review_price",
+          "title": "Line 18: review price"
+        },
+        {
+          "id": "boxworks:28:missing_quote",
+          "title": "Line 28: not quoted"
+        },
+        {
+          "id": "boxworks:19:missing_quote",
+          "title": "Line 19: not quoted"
+        }
+      ],
+      "provisional": true,
+      "id": "3be549c7-1c71-42ed-ad73-ddd19d52651c",
+      "created_at": "2026-09-19T05:27:11.960903+00:00",
+      "question": "Qualified only, no supplier above 55% of award spend",
+      "interpreter": "openai",
+      "stale": false
+    },
+    {
+      "status": "ok",
+      "spec": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": null,
+        "max_delivery_days": 14,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      },
+      "dataset_version": 13,
+      "assumptions": [
+        "FX: USD/INR 83.2",
+        "GST excluded from comparison",
+        "Conditional rebates are not applied unless explicitly resolved into normalized commercial terms",
+        "Pending/failed suppliers are excluded when qualified_suppliers_only=true"
+      ],
+      "baseline_total_inr": 41054650.0,
+      "award_total_inr": 39195860.0,
+      "award_total_cr": 3.92,
+      "savings_inr": 1858790.0,
+      "savings_pct": 4.53,
+      "covered_baseline_inr": 41054650.0,
+      "complete_award": true,
+      "solver_gap": 0.0,
+      "supplier_count": 2,
+      "uncovered_lines": [],
+      "vendor_mix": [
+        {
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "spend": 35183570.0,
+          "share": 0.8976,
+          "lines": 27
+        },
+        {
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "spend": 4012290.0,
+          "share": 0.1024,
+          "lines": 3
+        }
+      ],
+      "allocation": [
+        {
+          "line_no": 1,
+          "sku": "BX-5P-450-300-250",
+          "description": "5-ply RSC box 450x300x250 mm",
+          "qty": 39000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 19.56,
+          "total_cost": 762840.0,
+          "evidence_id": "5a9295d6-9a49-43fe-a2e8-ecc08d544b7e"
+        },
+        {
+          "line_no": 2,
+          "sku": "BX-5P-500-350-300",
+          "description": "5-ply RSC box 500x350x300 mm",
+          "qty": 51000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 24.12,
+          "total_cost": 1230120.0,
+          "evidence_id": "3224c20c-0b6b-411c-9e4a-3869c17f0afd"
+        },
+        {
+          "line_no": 3,
+          "sku": "BX-5P-600-400-350",
+          "description": "5-ply RSC box 600x400x350 mm",
+          "qty": 62000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 31.95,
+          "total_cost": 1980900.0,
+          "evidence_id": "94dcca78-158e-40a4-b0f7-e67630949e1e"
+        },
+        {
+          "line_no": 4,
+          "sku": "BX-5P-420-320-280",
+          "description": "5-ply die-cut box 420x320x280 mm",
+          "qty": 73000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 20.84,
+          "total_cost": 1521320.0,
+          "evidence_id": "a6fbfb42-1d9b-4b92-86fb-73fde5c0f6f8"
+        },
+        {
+          "line_no": 5,
+          "sku": "BX-5P-380-280-220",
+          "description": "5-ply RSC box 380x280x220 mm",
+          "qty": 84000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 16.0,
+          "total_cost": 1344000.0,
+          "evidence_id": "0d95c116-b6bb-4351-accf-ac322c354b8f"
+        },
+        {
+          "line_no": 6,
+          "sku": "BX-5P-550-380-320",
+          "description": "5-ply RSC box 550x380x320 mm",
+          "qty": 96000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 28.05,
+          "total_cost": 2692800.0,
+          "evidence_id": "00e26c75-0e4f-4b61-887a-05e159d533c7"
+        },
+        {
+          "line_no": 7,
+          "sku": "BX-5P-480-330-260",
+          "description": "5-ply RSC box 480x330x260 mm",
+          "qty": 107000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 23.06,
+          "total_cost": 2467420.0,
+          "evidence_id": "79079b2f-dd48-40ee-8610-95a776613e57"
+        },
+        {
+          "line_no": 8,
+          "sku": "BX-5P-650-450-400",
+          "description": "5-ply heavy-duty box 650x450x400 mm",
+          "qty": 118000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 39.14,
+          "total_cost": 4618520.0,
+          "evidence_id": "0d23f2f2-49dc-4dae-b7aa-0dd591cd1623"
+        },
+        {
+          "line_no": 9,
+          "sku": "BX-5P-440-310-240",
+          "description": "5-ply printed box 440x310x240 mm",
+          "qty": 130000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 19.95,
+          "total_cost": 2593500.0,
+          "evidence_id": "260f39ea-cc79-4c1a-ba14-058ba977319f"
+        },
+        {
+          "line_no": 10,
+          "sku": "BX-5P-520-360-290",
+          "description": "5-ply RSC box 520x360x290 mm",
+          "qty": 141000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 25.22,
+          "total_cost": 3556020.0,
+          "evidence_id": "d6ff16aa-98d6-45ed-8460-2bdb04d01ef0"
+        },
+        {
+          "line_no": 11,
+          "sku": "BX-3P-300-200-150",
+          "description": "3-ply RSC box 300x200x150 mm",
+          "qty": 152000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 8.8,
+          "total_cost": 1337600.0,
+          "evidence_id": "eb741fe4-858f-4ab8-b8ac-95d2812f5d91"
+        },
+        {
+          "line_no": 12,
+          "sku": "BX-3P-350-250-180",
+          "description": "3-ply RSC box 350x250x180 mm",
+          "qty": 37000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 10.31,
+          "total_cost": 381470.0,
+          "evidence_id": "ca66c430-2ffd-422b-9b19-956bf41a6103"
+        },
+        {
+          "line_no": 13,
+          "sku": "BX-3P-400-300-200",
+          "description": "3-ply RSC box 400x300x200 mm",
+          "qty": 48000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 12.33,
+          "total_cost": 591840.0,
+          "evidence_id": "16d266fd-e5de-4bb2-89fd-2cee659669df"
+        },
+        {
+          "line_no": 14,
+          "sku": "BX-3P-280-180-120",
+          "description": "3-ply mailer box 280x180x120 mm",
+          "qty": 59000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 7.57,
+          "total_cost": 446630.0,
+          "evidence_id": "49241828-7c93-4532-888d-9820ca8005ad"
+        },
+        {
+          "line_no": 15,
+          "sku": "BX-3P-450-320-220",
+          "description": "3-ply RSC box 450x320x220 mm",
+          "qty": 71000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 14.49,
+          "total_cost": 1028790.0,
+          "evidence_id": "4c79052b-2442-4b1e-92fc-88a32b7a8cb8"
+        },
+        {
+          "line_no": 16,
+          "sku": "BX-3P-320-220-160",
+          "description": "3-ply RSC box 320x220x160 mm",
+          "qty": 82000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 9.41,
+          "total_cost": 771620.0,
+          "evidence_id": "1233929f-d307-43fd-bdec-7ffd2eb9dfcb"
+        },
+        {
+          "line_no": 17,
+          "sku": "BX-3P-380-260-180",
+          "description": "3-ply printed box 380x260x180 mm",
+          "qty": 93000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 11.45,
+          "total_cost": 1064850.0,
+          "evidence_id": "f7454fca-8362-47f4-9b84-074bd546425c"
+        },
+        {
+          "line_no": 18,
+          "sku": "BX-3P-500-350-250",
+          "description": "3-ply RSC box 500x350x250 mm",
+          "qty": 104000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 16.19,
+          "total_cost": 1683760.0,
+          "evidence_id": "57c4f412-a947-4741-8178-db71125dc33c"
+        },
+        {
+          "line_no": 19,
+          "sku": "DV-5P-450-280",
+          "description": "5-ply corrugated divider 450x280 mm",
+          "qty": 116000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 5.88,
+          "total_cost": 682080.0,
+          "evidence_id": "35029a8b-d065-4ca7-a08e-6efeb60bb0b1"
+        },
+        {
+          "line_no": 20,
+          "sku": "DV-5P-520-320",
+          "description": "5-ply corrugated divider 520x320 mm",
+          "qty": 127000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 7.19,
+          "total_cost": 913130.0,
+          "evidence_id": "08062cf2-d743-4596-90a5-28cb9d6939ba"
+        },
+        {
+          "line_no": 21,
+          "sku": "DV-3P-350-220",
+          "description": "3-ply corrugated divider 350x220 mm",
+          "qty": 138000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 3.4,
+          "total_cost": 469200.0,
+          "evidence_id": "61c414a5-48ed-4d40-a1e7-efa8ce62de90"
+        },
+        {
+          "line_no": 22,
+          "sku": "DV-3P-420-260",
+          "description": "3-ply corrugated divider 420x260 mm",
+          "qty": 150000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 4.13,
+          "total_cost": 619500.0,
+          "evidence_id": "64d85c62-b911-48fd-83a9-c43318e0e483"
+        },
+        {
+          "line_no": 23,
+          "sku": "PD-3P-300-200",
+          "description": "3-ply corrugated pad 300x200 mm",
+          "qty": 34000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 3.05,
+          "total_cost": 103700.0,
+          "evidence_id": "ab763a1f-ed00-496f-b780-b7262155c7be"
+        },
+        {
+          "line_no": 24,
+          "sku": "PD-5P-450-300",
+          "description": "5-ply corrugated pad 450x300 mm",
+          "qty": 45000,
+          "vendor_id": "packright",
+          "vendor_name": "PackRight Industries",
+          "landed_unit_cost": 6.46,
+          "total_cost": 290700.0,
+          "evidence_id": "ba05d7ec-95d6-4392-b3de-33ccb4bff35d"
+        },
+        {
+          "line_no": 25,
+          "sku": "SH-5P-1000-800",
+          "description": "5-ply corrugated sheet 1000x800 mm",
+          "qty": 57000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 20.8,
+          "total_cost": 1185600.0,
+          "evidence_id": "69db044f-0a4d-4b6e-ab71-1568f6f22781"
+        },
+        {
+          "line_no": 26,
+          "sku": "SH-5P-1200-900",
+          "description": "5-ply corrugated sheet 1200x900 mm",
+          "qty": 68000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 27.21,
+          "total_cost": 1850280.0,
+          "evidence_id": "edf9dd5b-7280-4803-9aa1-b03c84014b1c"
+        },
+        {
+          "line_no": 27,
+          "sku": "SH-3P-900-600",
+          "description": "3-ply corrugated sheet 900x600 mm",
+          "qty": 79000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 11.12,
+          "total_cost": 878480.0,
+          "evidence_id": "5829fb27-dd41-490d-9729-eab6e84b9ffe"
+        },
+        {
+          "line_no": 28,
+          "sku": "SH-3P-1100-700",
+          "description": "3-ply corrugated sheet 1100x700 mm",
+          "qty": 91000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 14.43,
+          "total_cost": 1313130.0,
+          "evidence_id": "d8dad68b-1976-4c36-bf27-6fb992d4283f"
+        },
+        {
+          "line_no": 29,
+          "sku": "SL-5P-500-60",
+          "description": "5-ply corrugated sleeve 500x60 mm",
+          "qty": 102000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 4.81,
+          "total_cost": 490620.0,
+          "evidence_id": "a03fadd7-cf64-494f-9a65-6b3cb2b79a83"
+        },
+        {
+          "line_no": 30,
+          "sku": "SL-3P-420-50",
+          "description": "3-ply corrugated sleeve 420x50 mm",
+          "qty": 113000,
+          "vendor_id": "corrpro",
+          "vendor_name": "CorrPro International",
+          "landed_unit_cost": 2.88,
+          "total_cost": 325440.0,
+          "evidence_id": "0b265a5b-2099-442b-8abe-e9772a759645"
+        }
+      ],
+      "open_exceptions": [
+        {
+          "id": "corrpro:0:conditional_discount",
+          "title": "Conditional volume rebate"
+        },
+        {
+          "id": "boxworks:0:qualification",
+          "title": "Mandatory qualification pending"
+        },
+        {
+          "id": "alphapack:0:qualification",
+          "title": "Mandatory qualification fail"
+        },
+        {
+          "id": "alphapack:0:document_review",
+          "title": "Source interpretation notes"
+        },
+        {
+          "id": "boxworks:7:missing_quote",
+          "title": "Line 7: not quoted"
+        },
+        {
+          "id": "alphapack:18:review_price",
+          "title": "Line 18: review price"
+        },
+        {
+          "id": "boxworks:28:missing_quote",
+          "title": "Line 28: not quoted"
+        },
+        {
+          "id": "boxworks:19:missing_quote",
+          "title": "Line 19: not quoted"
+        }
+      ],
+      "provisional": true,
+      "id": "125b755b-23eb-49fd-982d-23a2120f7905",
+      "created_at": "2026-09-19T05:27:15.257950+00:00",
+      "question": "Qualified suppliers with delivery within 14 days",
+      "interpreter": "openai",
+      "stale": false
+    },
+    {
+      "status": "infeasible",
+      "reason": "No eligible quote exists for one or more lines under the selected constraints.",
+      "uncovered_lines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "spec": {
+        "objective": "minimize_landed_cost",
+        "qualified_suppliers_only": true,
+        "max_supplier_spend_share": null,
+        "max_delivery_days": 1,
+        "allocation_granularity": "line_item",
+        "missing_quote_policy": "disallow",
+        "required_supplier_ids": [],
+        "excluded_supplier_ids": []
+      },
+      "dataset_version": 13,
+      "open_exceptions": [
+        {
+          "id": "corrpro:0:conditional_discount",
+          "title": "Conditional volume rebate"
+        },
+        {
+          "id": "boxworks:0:qualification",
+          "title": "Mandatory qualification pending"
+        },
+        {
+          "id": "alphapack:0:qualification",
+          "title": "Mandatory qualification fail"
+        },
+        {
+          "id": "alphapack:0:document_review",
+          "title": "Source interpretation notes"
+        },
+        {
+          "id": "boxworks:7:missing_quote",
+          "title": "Line 7: not quoted"
+        },
+        {
+          "id": "alphapack:18:review_price",
+          "title": "Line 18: review price"
+        },
+        {
+          "id": "boxworks:28:missing_quote",
+          "title": "Line 28: not quoted"
+        },
+        {
+          "id": "boxworks:19:missing_quote",
+          "title": "Line 19: not quoted"
+        }
+      ],
+      "provisional": true,
+      "id": "f371428e-0656-4ae7-af21-fa4153a689a9",
+      "created_at": "2026-09-19T05:27:17.692775+00:00",
+      "question": "Qualified suppliers with delivery within 1 day",
+      "interpreter": "openai",
+      "stale": false
+    }
+  ],
+  "elapsed_seconds": 102.52,
+  "passed": true,
+  "limitations": [
+    "SMTP and replies are simulated.",
+    "Qualification checks declarations, not certificate authenticity.",
+    "Conditional rebates are surfaced but excluded from optimization.",
+    "Whole-line allocation only.",
+    "Four prior-year references require explicit buyer approval.",
+    "Obscured photo line 18 is correctly withheld; full 147-price recall would be unsafe.",
+    "Scenario staleness is conservative: every persisted business change creates a version.",
+    "RFx retains baseline line specifications and qualification IDs; proposed questionnaire edits are advisory."
+  ]
+}
