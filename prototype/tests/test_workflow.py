@@ -11,6 +11,7 @@ from backend.app import repository as repo, pipeline, graph
 from backend.app.main import app
 from backend.app.scenario import solve_scenario, ValidatedSpec
 from backend.app.store import DATA_DIR
+from backend.app.rfx_intake import _offline, blank_checklist
 
 @pytest.fixture
 def client(tmp_path,monkeypatch):
@@ -28,6 +29,17 @@ def approve(client):
 
 def resolve(client,eid,action='accept',**extra):
     return client.post('/api/exceptions/'+eid+'/resolve',json={'action':action,'actor':'Test buyer','reason':'Verified against source for regression test','expected_version':repo.read()['dataset_version'],**extra})
+
+def test_rfx_intake_uses_targeted_one_line_questions():
+    previous = blank_checklist()
+    for item in previous:
+        if item['id'] != 'timeline':
+            item.update(status='captured', captured_value='Captured buyer requirement')
+    result = _offline([{'role': 'buyer', 'text': 'Bids are due 30 Sep 2026.'}], previous)
+    timeline = next(item for item in result['checklist'] if item['id'] == 'timeline')
+    assert timeline['captured_value'] == 'Bids are due 30 Sep 2026.'
+    assert result['next_questions'] == ['Until when can suppliers raise clarifications?']
+    assert '\n' not in result['reply'] and len(result['reply'].split()) <= 30
 
 def test_approval_gate_and_durable_interrupt(client):
     assert client.post('/api/responses/packright/ingest').status_code==422
